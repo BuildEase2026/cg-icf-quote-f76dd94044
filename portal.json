@@ -8,36 +8,44 @@
   "revision": "",
   "model_title": "ES26-055 2 Castle Gardens, Swansea - new fourth-floor storey (4 flats) - Quotation"
  },
- "default_view": "stage-2",
+ "default_view": "stage-4",
  "views": [
   {
    "id": "stage-1",
    "kind": "stage",
    "n": 1,
    "title": "Existing building and steel ring beam",
-   "desc": "The existing four-storey building (ground to third floor) drawn in masonry, the new steel ring beam on the head of the existing walls with indicative transfer steels under the new internal walls, and the new fourth floor hung from the ring beam (posi joists + deck, the stairwell left open). Steelwork by the structural engineer.",
+   "desc": "The existing four-storey building (ground to third floor) drawn in masonry, the new steel ring beam (UB 254) on the head of the existing walls and the UB 406 transfer steels under the new internal ICF walls and the 4F front wall - INDICATIVE, structural engineer to design.",
    "focus": false
   },
   {
    "id": "stage-2",
    "kind": "stage",
    "n": 2,
-   "title": "Fourth floor ICF walls",
-   "desc": "Nudura 7 courses (3,200) on the ring beam: 6in XR35 external walls with the covered-terrace returns, 6in Standard stair-core and flat-separating walls, every door / window opening (bucks, end caps and lintel closures) and the timber partitions of the four flats. Every form is the real Nudura block as it would be laid.",
+   "title": "Fourth floor structure (hung from the ring beam)",
+   "desc": "PS10 metal-web joists 253 @ 400 spanning across the building, face-fix hung off C24 timber packers bolted in the steel webs (ring beams and the separating-wall transfers), strongbacks at mid-span, 22 Egger P5 deck; the covered terrace with a doubled edge joist and a 1,100 glass balustrade. The stairwell is left open.",
    "focus": false
   },
   {
    "id": "stage-3",
    "kind": "stage",
    "n": 3,
+   "title": "Fourth floor ICF walls, windows and partitions",
+   "desc": "Nudura 7 courses (3,200) on the ring beam: 6in XR35 external walls with the covered-terrace returns, 6in Standard stair-core and flat-separating walls, every opening (bucks, end caps, lintel closures) with the windows and doors fitted, and the TLSTF timber partitions of the four flats (shower rooms pattressed, heads clipped to the roof joists). Every form is the real Nudura block as it would be laid.",
+   "focus": false
+  },
+  {
+   "id": "stage-4",
+   "kind": "stage",
+   "n": 4,
    "title": "Flat sedum roof",
-   "desc": "Flat sedum + wildflower roof on posi joists between the ICF walls and the covered-terrace roof; the stairwell is open to the sky as drawn.",
+   "desc": "Flat sedum + wildflower roof: PS10 joists top-hung on ledgers bolted to the ICF (Simpson ICF ledger connectors), the covered-terrace roof off a UB 254 edge beam; 22 deck, VCL, 180 PIR (firrings to falls by the roofer), membrane and 100 sedum. The stairwell is open to the sky as drawn.",
    "focus": false
   },
   {
    "id": "elev-N",
    "kind": "elevation",
-   "n": 3,
+   "n": 4,
    "title": "North elevation",
    "dir": [
     0.0,
@@ -49,7 +57,7 @@
   {
    "id": "elev-S",
    "kind": "elevation",
-   "n": 3,
+   "n": 4,
    "title": "South elevation",
    "dir": [
     0.0,
@@ -61,7 +69,7 @@
   {
    "id": "elev-E",
    "kind": "elevation",
-   "n": 3,
+   "n": 4,
    "title": "East elevation",
    "dir": [
     1.0,
@@ -73,7 +81,7 @@
   {
    "id": "elev-W",
    "kind": "elevation",
-   "n": 3,
+   "n": 4,
    "title": "West elevation",
    "dir": [
     -1.0,
@@ -87,39 +95,52 @@
   {
    "n": 1,
    "title": "Existing building and steel ring beam",
-   "desc": "The existing four-storey building (ground to third floor) drawn in masonry, the new steel ring beam on the head of the existing walls with indicative transfer steels under the new internal walls, and the new fourth floor hung from the ring beam (posi joists + deck, the stairwell left open). Steelwork by the structural engineer.",
+   "desc": "The existing four-storey building (ground to third floor) drawn in masonry, the new steel ring beam (UB 254) on the head of the existing walls and the UB 406 transfer steels under the new internal ICF walls and the 4F front wall - INDICATIVE, structural engineer to design.",
    "files": [
     {
      "glb": "stage-1.glb",
      "part": null,
      "label": null,
-     "bytes": 29388
+     "bytes": 16328
     }
    ]
   },
   {
    "n": 2,
-   "title": "Fourth floor ICF walls",
-   "desc": "Nudura 7 courses (3,200) on the ring beam: 6in XR35 external walls with the covered-terrace returns, 6in Standard stair-core and flat-separating walls, every door / window opening (bucks, end caps and lintel closures) and the timber partitions of the four flats. Every form is the real Nudura block as it would be laid.",
+   "title": "Fourth floor structure (hung from the ring beam)",
+   "desc": "PS10 metal-web joists 253 @ 400 spanning across the building, face-fix hung off C24 timber packers bolted in the steel webs (ring beams and the separating-wall transfers), strongbacks at mid-span, 22 Egger P5 deck; the covered terrace with a doubled edge joist and a 1,100 glass balustrade. The stairwell is left open.",
    "files": [
     {
      "glb": "stage-2.glb",
      "part": null,
      "label": null,
-     "bytes": 1414704
+     "bytes": 727576
     }
    ]
   },
   {
    "n": 3,
-   "title": "Flat sedum roof",
-   "desc": "Flat sedum + wildflower roof on posi joists between the ICF walls and the covered-terrace roof; the stairwell is open to the sky as drawn.",
+   "title": "Fourth floor ICF walls, windows and partitions",
+   "desc": "Nudura 7 courses (3,200) on the ring beam: 6in XR35 external walls with the covered-terrace returns, 6in Standard stair-core and flat-separating walls, every opening (bucks, end caps, lintel closures) with the windows and doors fitted, and the TLSTF timber partitions of the four flats (shower rooms pattressed, heads clipped to the roof joists). Every form is the real Nudura block as it would be laid.",
    "files": [
     {
      "glb": "stage-3.glb",
      "part": null,
      "label": null,
-     "bytes": 24728
+     "bytes": 1780908
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Flat sedum roof",
+   "desc": "Flat sedum + wildflower roof: PS10 joists top-hung on ledgers bolted to the ICF (Simpson ICF ledger connectors), the covered-terrace roof off a UB 254 edge beam; 22 deck, VCL, 180 PIR (firrings to falls by the roofer), membrane and 100 sedum. The stairwell is open to the sky as drawn.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 614076
     }
    ]
   }
@@ -128,11 +149,11 @@
   {
    "id": "quote",
    "title": "Quotation",
-   "note": "The Distributor Bill of Materials (Nudura Proposal Generator distributor format: every form and accessory with your rate card - no material prices from us; BuildEase pre-cut service and pre-cut delivery as fixed charges; alignment by the distributor), the pallet stack sheets and the artic load plans.",
+   "note": "The Distributor Bill of Materials (every form and accessory with your rate card - no material prices from us; BuildEase pre-cut service and pre-cut delivery as fixed charges; alignment by the distributor), the BOQ package, the pallet stack sheets and the artic load plans.",
    "zip": {
     "file": "downloads/ES26-055 Quotation.zip",
-    "bytes": 318004,
-    "count": 3
+    "bytes": 845674,
+    "count": 4
    },
    "docs": [
     {
@@ -141,9 +162,9 @@
      "file": "docs/quote/ES26-055-LP-01 Artic load plans - 2 loads.pdf",
      "pages": 2,
      "thumb": "thumbs/ES26-055-LP-01.png",
-     "bytes": 33393,
+     "bytes": 33402,
      "number": "ES26-055-LP-01",
-     "view": "stage-2",
+     "view": "stage-4",
      "view_opts": {}
     },
     {
@@ -152,9 +173,9 @@
      "file": "docs/quote/ES26-055-PS-01 Pallet stack sheets - 12 pallets.pdf",
      "pages": 12,
      "thumb": "thumbs/ES26-055-PS-01.png",
-     "bytes": 142632,
+     "bytes": 141470,
      "number": "ES26-055-PS-01",
-     "view": "stage-2",
+     "view": "stage-4",
      "view_opts": {}
     },
     {
@@ -163,26 +184,43 @@
      "file": "docs/quote/ES26-055-QS-01 Distributor BOM - Nudura 6in XR35 + 6in Std.pdf",
      "pages": 7,
      "thumb": "thumbs/ES26-055-QS-01.png",
-     "bytes": 269162,
+     "bytes": 269474,
      "number": "ES26-055-QS-01",
-     "view": "stage-2",
+     "view": "stage-4",
      "view_opts": {}
+    },
+    {
+     "id": "ES26-055-XI-01",
+     "title": "BOQ package - ICF, programme and finishes (Excel)",
+     "file": "downloads/ES26-055 BOQ Package.xlsx",
+     "pages": 24,
+     "thumb": "thumbs/ES26-055-XI-01.png",
+     "bytes": 1242602,
+     "number": "ES26-055-XI-01",
+     "kind": "xlsx",
+     "preview": "xls/boq.html",
+     "tabs": 24,
+     "subtitle": "Excel workbook - live preview, enter rates"
     }
    ],
    "downloads": [
     {
      "file": "downloads/ES26-055 Distributor BOM - 2 Castle Gardens, Swansea.xlsx",
      "title": "Distributor BOM (Excel - enter your rates in the yellow cells; the totals and order form update) (0.1 MB)"
+    },
+    {
+     "file": "downloads/ES26-055 BOQ Package.xlsx",
+     "title": "BOQ package (Excel - ICF bill, programme and finishes bills) (0.4 MB)"
     }
    ]
   },
   {
    "id": "icf",
    "title": "ICF drawings",
-   "note": "The ICF general arrangement (course setting-out, corners, openings and end caps), the wall elevations and a section.",
+   "note": "The ICF general arrangement (course setting-out, corners, openings, end caps and the stack joint), the wall elevations and a section.",
    "zip": {
     "file": "downloads/ES26-055 ICF drawings.zip",
-    "bytes": 248691,
+    "bytes": 1399381,
     "count": 4
    },
    "docs": [
@@ -192,7 +230,7 @@
      "file": "docs/icf/ES26-055-GA-01 Fourth Floor ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-055-GA-01.png",
-     "bytes": 63600,
+     "bytes": 82682,
      "number": "ES26-055-GA-01",
      "view": "stage-1",
      "view_opts": {}
@@ -203,7 +241,7 @@
      "file": "docs/icf/ES26-055-EL-01 Side Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-055-EL-01.png",
-     "bytes": 97781,
+     "bytes": 1258303,
      "number": "ES26-055-EL-01",
      "view": "elev-N",
      "view_opts": {}
@@ -214,7 +252,7 @@
      "file": "docs/icf/ES26-055-EL-02 Front and Rear Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-055-EL-02.png",
-     "bytes": 80616,
+     "bytes": 336656,
      "number": "ES26-055-EL-02",
      "view": "elev-E",
      "view_opts": {}
@@ -225,9 +263,65 @@
      "file": "docs/icf/ES26-055-SE-01 Section A-A.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-055-SE-01.png",
-     "bytes": 69077,
+     "bytes": 124399,
      "number": "ES26-055-SE-01",
+     "view": "stage-3",
+     "view_opts": {}
+    }
+   ]
+  },
+  {
+   "id": "timber",
+   "title": "Floors, roof and partitions",
+   "note": "The hung fourth floor and the steels, the flat sedum roof structure and the TLSTF timber partitions (design assumptions - coordination only).",
+   "zip": {
+    "file": "downloads/ES26-055 Floors, roof and partitions.zip",
+    "bytes": 238451,
+    "count": 4
+   },
+   "docs": [
+    {
+     "id": "ES26-055-FL-01",
+     "title": "Fourth Floor Structure",
+     "file": "docs/timber/ES26-055-FL-01 Fourth Floor Structure.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-055-FL-01.png",
+     "bytes": 84340,
+     "number": "ES26-055-FL-01",
      "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-055-FL-02",
+     "title": "Joist Profiles and Steel Schedule",
+     "file": "docs/timber/ES26-055-FL-02 Joist Profiles and Steel Schedule.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-055-FL-02.png",
+     "bytes": 66379,
+     "number": "ES26-055-FL-02",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-055-RF-01",
+     "title": "Flat Roof Structure",
+     "file": "docs/timber/ES26-055-RF-01 Flat Roof Structure.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-055-RF-01.png",
+     "bytes": 74750,
+     "number": "ES26-055-RF-01",
+     "view": "stage-4",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-055-TF-01",
+     "title": "Fourth Floor Timber Partitions",
+     "file": "docs/timber/ES26-055-TF-01 Fourth Floor Timber Partitions.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-055-TF-01.png",
+     "bytes": 72549,
+     "number": "ES26-055-TF-01",
+     "view": "stage-3",
      "view_opts": {}
     }
    ]
@@ -238,8 +332,8 @@
  "toggles": [],
  "download_all": {
   "file": "downloads/ES26-055 2 Castle Gardens, Swansea - new fourth-floor storey (4 flats) - Quotation.zip",
-  "bytes": 601945,
-  "count": 8,
+  "bytes": 2673315,
+  "count": 14,
   "title": "Download everything"
  }
 }

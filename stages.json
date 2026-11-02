@@ -5,39 +5,52 @@
   {
    "n": 1,
    "title": "Existing building and steel ring beam",
-   "desc": "The existing four-storey building (ground to third floor) drawn in masonry, the new steel ring beam on the head of the existing walls with indicative transfer steels under the new internal walls, and the new fourth floor hung from the ring beam (posi joists + deck, the stairwell left open). Steelwork by the structural engineer.",
+   "desc": "The existing four-storey building (ground to third floor) drawn in masonry, the new steel ring beam (UB 254) on the head of the existing walls and the UB 406 transfer steels under the new internal ICF walls and the 4F front wall - INDICATIVE, structural engineer to design.",
    "files": [
     {
      "glb": "stage-1.glb",
      "part": null,
      "label": null,
-     "bytes": 29388
+     "bytes": 16328
     }
    ]
   },
   {
    "n": 2,
-   "title": "Fourth floor ICF walls",
-   "desc": "Nudura 7 courses (3,200) on the ring beam: 6in XR35 external walls with the covered-terrace returns, 6in Standard stair-core and flat-separating walls, every door / window opening (bucks, end caps and lintel closures) and the timber partitions of the four flats. Every form is the real Nudura block as it would be laid.",
+   "title": "Fourth floor structure (hung from the ring beam)",
+   "desc": "PS10 metal-web joists 253 @ 400 spanning across the building, face-fix hung off C24 timber packers bolted in the steel webs (ring beams and the separating-wall transfers), strongbacks at mid-span, 22 Egger P5 deck; the covered terrace with a doubled edge joist and a 1,100 glass balustrade. The stairwell is left open.",
    "files": [
     {
      "glb": "stage-2.glb",
      "part": null,
      "label": null,
-     "bytes": 1414704
+     "bytes": 727576
     }
    ]
   },
   {
    "n": 3,
-   "title": "Flat sedum roof",
-   "desc": "Flat sedum + wildflower roof on posi joists between the ICF walls and the covered-terrace roof; the stairwell is open to the sky as drawn.",
+   "title": "Fourth floor ICF walls, windows and partitions",
+   "desc": "Nudura 7 courses (3,200) on the ring beam: 6in XR35 external walls with the covered-terrace returns, 6in Standard stair-core and flat-separating walls, every opening (bucks, end caps, lintel closures) with the windows and doors fitted, and the TLSTF timber partitions of the four flats (shower rooms pattressed, heads clipped to the roof joists). Every form is the real Nudura block as it would be laid.",
    "files": [
     {
      "glb": "stage-3.glb",
      "part": null,
      "label": null,
-     "bytes": 24728
+     "bytes": 1780908
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Flat sedum roof",
+   "desc": "Flat sedum + wildflower roof: PS10 joists top-hung on ledgers bolted to the ICF (Simpson ICF ledger connectors), the covered-terrace roof off a UB 254 edge beam; 22 deck, VCL, 180 PIR (firrings to falls by the roofer), membrane and 100 sedum. The stairwell is open to the sky as drawn.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 614076
     }
    ]
   }
