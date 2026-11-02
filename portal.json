@@ -1,0 +1,245 @@
+{
+ "portal": "BuildEase ICF Project Environment",
+ "project": {
+  "client": "Insubloc (distributor) - Tim Evans",
+  "job": "2 Castle Gardens, Swansea - new fourth-floor storey (4 flats)",
+  "number_prefix": "ES26-055",
+  "status": "QUOTATION",
+  "revision": "",
+  "model_title": "ES26-055 2 Castle Gardens, Swansea - new fourth-floor storey (4 flats) - Quotation"
+ },
+ "default_view": "stage-2",
+ "views": [
+  {
+   "id": "stage-1",
+   "kind": "stage",
+   "n": 1,
+   "title": "Existing building and steel ring beam",
+   "desc": "The existing four-storey building (ground to third floor) drawn in masonry, the new steel ring beam on the head of the existing walls with indicative transfer steels under the new internal walls, and the new fourth floor hung from the ring beam (posi joists + deck, the stairwell left open). Steelwork by the structural engineer.",
+   "focus": false
+  },
+  {
+   "id": "stage-2",
+   "kind": "stage",
+   "n": 2,
+   "title": "Fourth floor ICF walls",
+   "desc": "Nudura 7 courses (3,200) on the ring beam: 6in XR35 external walls with the covered-terrace returns, 6in Standard stair-core and flat-separating walls, every door / window opening (bucks, end caps and lintel closures) and the timber partitions of the four flats. Every form is the real Nudura block as it would be laid.",
+   "focus": false
+  },
+  {
+   "id": "stage-3",
+   "kind": "stage",
+   "n": 3,
+   "title": "Flat sedum roof",
+   "desc": "Flat sedum + wildflower roof on posi joists between the ICF walls and the covered-terrace roof; the stairwell is open to the sky as drawn.",
+   "focus": false
+  },
+  {
+   "id": "elev-N",
+   "kind": "elevation",
+   "n": 3,
+   "title": "North elevation",
+   "dir": [
+    0.0,
+    0.12,
+    -1.0
+   ],
+   "desc": "Complete structure seen from the north."
+  },
+  {
+   "id": "elev-S",
+   "kind": "elevation",
+   "n": 3,
+   "title": "South elevation",
+   "dir": [
+    0.0,
+    0.12,
+    1.0
+   ],
+   "desc": "Complete structure seen from the south."
+  },
+  {
+   "id": "elev-E",
+   "kind": "elevation",
+   "n": 3,
+   "title": "East elevation",
+   "dir": [
+    1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the east."
+  },
+  {
+   "id": "elev-W",
+   "kind": "elevation",
+   "n": 3,
+   "title": "West elevation",
+   "dir": [
+    -1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the west."
+  }
+ ],
+ "stages": [
+  {
+   "n": 1,
+   "title": "Existing building and steel ring beam",
+   "desc": "The existing four-storey building (ground to third floor) drawn in masonry, the new steel ring beam on the head of the existing walls with indicative transfer steels under the new internal walls, and the new fourth floor hung from the ring beam (posi joists + deck, the stairwell left open). Steelwork by the structural engineer.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 29388
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Fourth floor ICF walls",
+   "desc": "Nudura 7 courses (3,200) on the ring beam: 6in XR35 external walls with the covered-terrace returns, 6in Standard stair-core and flat-separating walls, every door / window opening (bucks, end caps and lintel closures) and the timber partitions of the four flats. Every form is the real Nudura block as it would be laid.",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1414704
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Flat sedum roof",
+   "desc": "Flat sedum + wildflower roof on posi joists between the ICF walls and the covered-terrace roof; the stairwell is open to the sky as drawn.",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 24728
+    }
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "id": "quote",
+   "title": "Quotation",
+   "note": "The Distributor Bill of Materials (Nudura Proposal Generator distributor format: every form and accessory with your rate card - no material prices from us; BuildEase pre-cut service and pre-cut delivery as fixed charges; alignment by the distributor), the pallet stack sheets and the artic load plans.",
+   "zip": {
+    "file": "downloads/ES26-055 Quotation.zip",
+    "bytes": 318004,
+    "count": 3
+   },
+   "docs": [
+    {
+     "id": "ES26-055-LP-01",
+     "title": "Artic load plans - 2 loads",
+     "file": "docs/quote/ES26-055-LP-01 Artic load plans - 2 loads.pdf",
+     "pages": 2,
+     "thumb": "thumbs/ES26-055-LP-01.png",
+     "bytes": 33393,
+     "number": "ES26-055-LP-01",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-055-PS-01",
+     "title": "Pallet stack sheets - 12 pallets",
+     "file": "docs/quote/ES26-055-PS-01 Pallet stack sheets - 12 pallets.pdf",
+     "pages": 12,
+     "thumb": "thumbs/ES26-055-PS-01.png",
+     "bytes": 142632,
+     "number": "ES26-055-PS-01",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-055-QS-01",
+     "title": "Distributor BOM - Nudura 6in XR35 + 6in Std",
+     "file": "docs/quote/ES26-055-QS-01 Distributor BOM - Nudura 6in XR35 + 6in Std.pdf",
+     "pages": 7,
+     "thumb": "thumbs/ES26-055-QS-01.png",
+     "bytes": 269162,
+     "number": "ES26-055-QS-01",
+     "view": "stage-2",
+     "view_opts": {}
+    }
+   ],
+   "downloads": [
+    {
+     "file": "downloads/ES26-055 Distributor BOM - 2 Castle Gardens, Swansea.xlsx",
+     "title": "Distributor BOM (Excel - enter your rates in the yellow cells; the totals and order form update) (0.1 MB)"
+    }
+   ]
+  },
+  {
+   "id": "icf",
+   "title": "ICF drawings",
+   "note": "The ICF general arrangement (course setting-out, corners, openings and end caps), the wall elevations and a section.",
+   "zip": {
+    "file": "downloads/ES26-055 ICF drawings.zip",
+    "bytes": 248691,
+    "count": 4
+   },
+   "docs": [
+    {
+     "id": "ES26-055-GA-01",
+     "title": "Fourth Floor ICF General Arrangement",
+     "file": "docs/icf/ES26-055-GA-01 Fourth Floor ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-055-GA-01.png",
+     "bytes": 63600,
+     "number": "ES26-055-GA-01",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-055-EL-01",
+     "title": "Side Elevations",
+     "file": "docs/icf/ES26-055-EL-01 Side Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-055-EL-01.png",
+     "bytes": 97781,
+     "number": "ES26-055-EL-01",
+     "view": "elev-N",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-055-EL-02",
+     "title": "Front and Rear Elevations",
+     "file": "docs/icf/ES26-055-EL-02 Front and Rear Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-055-EL-02.png",
+     "bytes": 80616,
+     "number": "ES26-055-EL-02",
+     "view": "elev-E",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-055-SE-01",
+     "title": "Section A-A",
+     "file": "docs/icf/ES26-055-SE-01 Section A-A.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-055-SE-01.png",
+     "bytes": 69077,
+     "number": "ES26-055-SE-01",
+     "view": "stage-2",
+     "view_opts": {}
+    }
+   ]
+  }
+ ],
+ "focus": null,
+ "isolate_stages": false,
+ "toggles": [],
+ "download_all": {
+  "file": "downloads/ES26-055 2 Castle Gardens, Swansea - new fourth-floor storey (4 flats) - Quotation.zip",
+  "bytes": 601945,
+  "count": 8,
+  "title": "Download everything"
+ }
+}

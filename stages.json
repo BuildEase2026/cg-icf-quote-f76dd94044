@@ -1,0 +1,45 @@
+{
+ "job": "2 Castle Gardens, Swansea - new fourth-floor storey (4 flats)",
+ "revision": "",
+ "stages": [
+  {
+   "n": 1,
+   "title": "Existing building and steel ring beam",
+   "desc": "The existing four-storey building (ground to third floor) drawn in masonry, the new steel ring beam on the head of the existing walls with indicative transfer steels under the new internal walls, and the new fourth floor hung from the ring beam (posi joists + deck, the stairwell left open). Steelwork by the structural engineer.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 29388
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Fourth floor ICF walls",
+   "desc": "Nudura 7 courses (3,200) on the ring beam: 6in XR35 external walls with the covered-terrace returns, 6in Standard stair-core and flat-separating walls, every door / window opening (bucks, end caps and lintel closures) and the timber partitions of the four flats. Every form is the real Nudura block as it would be laid.",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1414704
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Flat sedum roof",
+   "desc": "Flat sedum + wildflower roof on posi joists between the ICF walls and the covered-terrace roof; the stairwell is open to the sky as drawn.",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 24728
+    }
+   ]
+  }
+ ]
+}
