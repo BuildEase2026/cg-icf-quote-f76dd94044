@@ -329,7 +329,20 @@
  ],
  "focus": null,
  "isolate_stages": false,
- "toggles": [],
+ "toggles": [
+  {
+   "label": "Floor deck",
+   "materials": [
+    "Egger Protect P5 deck"
+   ],
+   "default": true,
+   "stages": [
+    2,
+    3,
+    4
+   ]
+  }
+ ],
  "download_all": {
   "file": "downloads/ES26-055 2 Castle Gardens, Swansea - new fourth-floor storey (4 flats) - Quotation.zip",
   "bytes": 2673315,
